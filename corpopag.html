@@ -5,8 +5,76 @@
     <title>PIZZARIA LUZ DIVINA</title>
 </head>
 <body>
+    
    
     <h1> <em><strong> PIZZARIA LUZ DIVINA</strong> </em></h1>
+</ul>
+<code>
+    <h1>Cadastro do Cliente</h1>
+    <form>
+        <fieldset>
+            <legend>Informações necessárias para gerar pedido:</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="fnome" name="nome"><br>
+            <label for="snome">Sobrenome: </label><br>
+            <input type="text" id="snome" name="snome" />
+            <div>
+                <label for="email">E-mail: </label><br>
+                <input type="email" id="email" name="email" autofocus/>
+            </div>
+        </fieldset>
+        <p>Faixa etária:</p>
+        <select id="faixa" name="nfaixa">
+            <option value="-">-</option>
+            <option value="jovem">Até 19 anos</option>
+            <option value="adulto">Entre 20 e 40 anos</option>
+            <option value="velho">De 40 anos em diante</option>
+        </select>
+        <div>
+            <p>Selecione o Estado em que Reside:</p>
+            <input list="estado">
+            <datalist id="estado">
+                <option value="AC">
+                <option value="AL">
+                <option value="AP">
+                <option value="AM">
+                <option value="BA">
+                <option value="CE">
+                <option value="DF">
+                <option value="ES">
+                <option value="GO">
+                <option value="MA">
+                <option value="MT">
+                <option value="MS">
+                <option value="MG">
+                <option value="PA">
+                <option value="PB">
+                <option value="PR">
+                <option value="PE">
+                <option value="PI">
+                <option value="RJ">
+                <option value="RN">
+                <option value="RS">
+                <option value="RO">
+                <option value="RR">
+                <option value="SC">
+                <option value="SP">
+                <option value="SE">
+                <option value="TO">
+            </datalist>
+        </div>
+
+        <div>
+            <p>Sexo:</p>
+            <input type="radio" name="sexo" value="fem" />Feminino
+            <input type="radio" name="sexo" value="msc" />Masculino
+        </div>
+        
+        <div><textarea name="texto" rows="5" cols="50">Adicione suas exigencias:</textarea> </div>
+            </ul>
+        
+</code>
+</form>
 <p>Cardapio</p>
 <img src="1.png" alt="1.png" width="420" height="500">
 <img src="2.png" alt="1.png" width="430" height="500">
@@ -27,8 +95,7 @@
         <li>Bebidas</li>
         <li>Sobremesas groumet</li>
         <li>Adicionais</li>
-        </ul>
-       
+        
     </body>
     <table>
         <thead>
