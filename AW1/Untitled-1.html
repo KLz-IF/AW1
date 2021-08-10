@@ -1,0 +1,97 @@
+ <!--FORMULÁRIO DE CADASTRO-->
+ <div id="cadastro">
+    <form method="post" action=""> 
+      <h1>Cadastro</h1> 
+      
+      <p> 
+        <label for="nome_cad">Seu nome</label>
+        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
+      </p>
+      
+      <p> 
+        <label for="email_cad">Seu e-mail</label>
+        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+      </p>
+      
+      <p> 
+        <label for="senha_cad">Sua senha</label>
+        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+      </p>
+      
+      <p> 
+        <input type="submit" value="Cadastrar"/> 
+      </p>
+      
+      <p class="link">  
+        Já tem conta?
+        <a href="#paralogin"> Ir para Login </a>
+      </p>
+    </form>
+  </div>
+</div>
+</div> 
+
+
+<code>
+<h1>Cadastro do Cliente</h1>
+<form>
+    <fieldset>
+        <legend>Informações necessárias para gerar pedido:</legend>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="fnome" name="nome"><br>
+        <label for="snome">Sobrenome: </label><br>
+        <input type="text" id="snome" name="snome" />
+        <div>
+            <label for="email">E-mail: </label><br>
+            <input type="email" id="email" name="email" autofocus/>
+        </div>
+    </fieldset>
+    <p>Faixa etária:</p>
+    <select id="faixa" name="nfaixa">
+        <option value="-">-</option>
+        <option value="jovem">Até 19 anos</option>
+        <option value="adulto">Entre 20 e 40 anos</option>
+        <option value="velho">De 40 anos em diante</option>
+    </select>
+    <div>
+        <p>Selecione o Estado em que Reside:</p>
+        <input list="estado">
+        <datalist id="estado">
+            <option value="AC">
+            <option value="AL">
+            <option value="AP">
+            <option value="AM">
+            <option value="BA">
+            <option value="CE">
+            <option value="DF">
+            <option value="ES">
+            <option value="GO">
+            <option value="MA">
+            <option value="MT">
+            <option value="MS">
+            <option value="MG">
+            <option value="PA">
+            <option value="PB">
+            <option value="PR">
+            <option value="PE">
+            <option value="PI">
+            <option value="RJ">
+            <option value="RN">
+            <option value="RS">
+            <option value="RO">
+            <option value="RR">
+            <option value="SC">
+            <option value="SP">
+            <option value="SE">
+            <option value="TO">
+        </datalist>
+    </div>
+
+    <div>
+        <p>Sexo:</p>
+        <input type="radio" name="sexo" value="fem" />Feminino
+        <input type="radio" name="sexo" value="msc" />Masculino
+    </div>
+    
+    <div><textarea name="texto" rows="5" cols="50">Adicione suas exigencias:</textarea> </div>
+        </ul>
